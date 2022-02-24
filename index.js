@@ -1,21 +1,18 @@
-// variable initilisation
-a=10
+// 
+// Number
+var num = 10;
+var float = 3.4;
+console.log(num);
+console.log(float);
 
-// typeof operator return integer type
-console.log(typeof a)
-console.log(a)
+// Boolean
+var t = true;
+var f = false;
+console.log(t);
+console.log(f);
 
-// typeof operator return string type
-a="Hello Js"
-console.log(typeof a)
-console.log(a)
-
-// typeof operator return boolean type
-a=true
-console.log(typeof a)
-console.log(a)
-
-// typeof operator return object type
-a=null
-console.log(typeof a )
-console.log(a)
+// String
+var str = 'a';
+console.log(typeof str);
+str = "How you doin";
+console.log(str);
