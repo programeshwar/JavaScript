@@ -14,3 +14,8 @@ console.log(a)
 a=true
 console.log(typeof a)
 console.log(a)
+
+// typeof operator return object type
+a=null
+console.log(typeof a )
+console.log(a)
