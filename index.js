@@ -44,3 +44,40 @@ console.log(str2)
 // Output with variable and string using backtrick
 var num = 100;
 console.log(`half of ${num} is ${num/2}`);
+
+// Var has some problem
+//      > redeclaration allowed
+// Overcome karne ke liye
+
+// let keyword is used
+
+let l = 100;
+console.log(l);
+
+// let l = 200;  //redeclration not allowed will give error "Identifier 'l' has already been declared"
+console.log(l);
+
+l = 300; // reinitialisation allowed
+
+
+// loops in Js
+var num =12;
+
+for(var i=0; i<num;i++)
+{
+    if(i%2==0){
+        console.log("Num is even");
+    }
+}
+
+
+// const keyword 
+// redeclaration and re initialisation both not allowed
+
+const j=10;
+console.log(j);
+
+//const j=20; // redeclration not allowed error "Identifier 'j' has already been declared"
+//j=40; // will trough error "Assignment to constant variable.at index.js:80:2"
+
+
