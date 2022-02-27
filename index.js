@@ -80,4 +80,21 @@ console.log(j);
 //const j=20; // redeclration not allowed error "Identifier 'j' has already been declared"
 //j=40; // will trough error "Assignment to constant variable.at index.js:80:2"
 
+//second problem with var keyword
+// var keyword is function scoped in case of function else it is global scobe
+//let keyword is block scoped
+
+for (let i=0;i<6; i++)
+{
+    console.log(i);
+}
+
+// console.log(i)  -->will give error because let keyword use kia hai or ye block scoped hai.
+
+for (var i=0;i<6; i++)
+{
+    console.log(i);
+}
+
+console.log(i)  //will print value of i kyuki var key globaly banata hai var
 
