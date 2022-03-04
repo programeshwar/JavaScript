@@ -51,7 +51,8 @@ function add(a,b){
     console.log(a+b);
 }
 
-add(20,30); // here we invoke the fun
+let a=add(20,30); // here we invoke the fun
+console.log(""+a);
 
 let additionIIFE = (function add(a,b){
     console.log(a+b);
