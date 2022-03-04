@@ -41,3 +41,19 @@ calculator('add', 2, 3)
 */
 
 returnedFun(); // this will return 5 the sum of two and three
+
+
+//3. IIFE Imediatly invoke function expression
+
+//normal fuction 
+
+function add(a,b){
+    console.log(a+b);
+}
+
+add(20,30); // here we invoke the fun
+
+let additionIIFE = (function add(a,b){
+    console.log(a+b);
+})(20,30);  //it will return 50 ye ek sath hi invoke bhi kar dega 
+
